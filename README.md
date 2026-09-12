@@ -53,10 +53,10 @@ predictive-maintenance-ml/
 ├── notebooks/
 │   └── analysis.ipynb           # EDA, model comparison, SHAP (from Kaggle)
 ├── model_artifacts/
-│   ├── model.pkl                # <- you provide (see above)
-│   ├── scaler.pkl                # <- you provide
-│   ├── label_encoder.pkl         # <- you provide
-│   └── feature_config.json       # <- you provide
+│   ├── model.pkl                
+│   ├── scaler.pkl                
+│   ├── label_encoder.pkl        
+│   └── feature_config.json       
 ├── api/
 │   └── main.py                   # FastAPI inference endpoint
 ├── requirements.txt
