@@ -5,23 +5,6 @@ focus on handling severe class imbalance (3.4% failure rate) properly rather tha
 optimizing for misleading accuracy. Includes model comparison (SVM, decision tree,
 random forest, XGBoost), SHAP explainability, and a deployed FastAPI inference endpoint.
 
-## ⚠️ Before you start: you need your model artifacts
-
-This repo ships with the API code only, not the trained model — that was generated in
-the Kaggle notebook (see `notebooks/`) and is specific to your training run.
-
-From your Kaggle notebook, after running the modeling + SHAP steps, download these
-four files and place them here:
-
-```
-model_artifacts/model.pkl
-model_artifacts/scaler.pkl
-model_artifacts/label_encoder.pkl
-model_artifacts/feature_config.json
-```
-
-The app will raise a clear error on startup if these are missing.
-
 ## Setup
 
 ```bash
